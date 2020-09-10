@@ -1,0 +1,186 @@
+:root {
+    --verdeClaro: #42644d; 
+    --verdeParrafo: #2a3a2a;
+    --blanco: #ffffff;
+    --verdeOscuro: #36523f;
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'reeyregular';
+    src: url('../fonts/reey-regular-webfont.woff2') format('woff2'),
+         url('../fonts/reey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background: var(--blanco);
+}
+
+.left{
+    width: 400px; height: 400px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+}
+
+.right{
+    width: 400px; height: 400px;
+    float: left;
+    margin-left: 27%;
+    position: relative;
+    display: inline-block; 
+    padding: 25px 25px 20px 40px;
+}
+
+.content-images-center{
+    width: 242px; 
+    margin-top: -32.6px;
+    margin-left: -47.6px;
+    padding: 25px 25px 20px 40px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    position:absolute; 
+    z-index:0;
+
+}
+
+.titulo {
+    font-size: 55pt;
+    text-align: right;
+    color: transparent;
+    margin-top: 39px;
+    background: url(../img/Titulo_home_01.png) no-repeat;
+    background-position: 6% 47%;
+    -webkit-background-clip: text;
+    font-family: "montserratblack" !important;
+    line-height: 70px;
+    position:absolute; 
+    z-index:1;
+}
+
+.Connect{
+    font-size: 23.5pt;
+    margin-top: 167px;
+    margin-left: 10px;
+    color: var(--verdeClaro);
+    font-family: "reeyregular" !important
+}
+
+.parrafo {
+    color: var(--verdeParrafo);
+    text-align: right;
+    margin-top: -60px;
+    margin-left:-200px;
+    font-size: 10.8pt;
+    width: 110%;
+    font-family: "montserratmedium";
+    line-height: 20px;
+    position:absolute; 
+    z-index:1;
+}
+
+.btn-principal{
+    font-size: 15.7pt; 
+    margin-top: 52px;
+    margin-left: 43.5%;
+    background: var(--verdeOscuro);
+    border: none;
+    padding: 15px 20px 8px 16px;
+    border-radius: 20px;
+    color: var(--blanco);
+    font-family: "poppinsbold";
+}
+
+.branch{
+    width: 80px; 
+    margin-top: -46px;
+    margin-left: 23%;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    width: 400px; height: 400px;
+
+    padding: 25px 25px 20px 40px;
+
+}
+
+.img_RedesSociales{
+    width: 67px;
+    margin-left: 21px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+
+}
+
+.Web{
+    color: var(--verdeOscuro);
+    font-size: 12pt;
+    font-family: "montserratbold";
+    padding: 25px 25px 20px 40px;
+    margin-left: -200px;
+    margin-top: -50;
+    float: left;
+    position: relative;
+    display: inline-block; 
+}
+
+
+  #container{
+      width: 1950px;
+      margin: 0 auto;
+      background: var(--blanco);
+  }
+
+  #container .wrapper{
+      padding: 0;
+      margin: 0;
+  }
+
+#logo{
+    width: 9%;
+    margin-left: 56%;
+}
+

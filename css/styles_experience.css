@@ -1,0 +1,212 @@
+:root {
+    --grisOscuro: #63605e; 
+    --grisParrafo: #545454;
+    --blanco: #ffffff;
+    --letraLocation: #868584;
+    --numero: #5f5d5b;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'reeyregular';
+    src: url('../fonts/reey-regular-webfont.woff2') format('woff2'),
+         url('../fonts/reey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: var(--blanco);
+}
+
+.left{
+    width: 400px; height: 400px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    padding: 25px 25px 20px 40px;
+}
+
+.content-images-center{
+    width: 310px; 
+    margin-left: 0px;
+    padding: 25px 25px 20px 40px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    position:absolute; 
+    z-index:0;
+
+}
+
+.titulo {
+    font-size: 75pt;
+    color: transparent;
+    margin-top: 258px;
+    margin-left: 2.8%;
+    background: url(../img/Titulo_Experience.png) no-repeat;
+    background-position: 20% 47%;
+    -webkit-background-clip: text;
+    font-family: "poppinsextrabold" !important;
+    line-height: 110px;
+    position:absolute; 
+    z-index:1;
+}
+
+.Connect{
+    font-size: 38.7pt;
+    margin-top: 489px;
+    margin-left: 2.8%;
+    line-height: 70px;
+    transform: rotate(-15deg);
+    color: var(--grisOscuro);
+    font-family: "reeyregular" !important;
+    position:absolute; 
+    z-index:0;
+}
+
+.subtitulo {
+    font-size: 16.7pt;
+    margin-top: 546px;
+    margin-left: 2.8%;
+    color: var(--grisOscuro);
+    font-family: "poppinsbold" !important;
+    position:absolute; 
+    z-index:1;
+}
+.location{
+    font-size: 14.5pt;
+    color: var(--letraLocation);
+    font-family: "poppinsmedium";
+    line-height: 25px;
+    position:absolute; 
+    z-index:1;
+}
+.parrafo {
+    color: var(--grisParrafo);
+    margin-left: 40%;
+    font-size: 14.5pt;
+    width: 110%;
+    font-family: "poppinsmedium";
+    line-height: 30px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    position:absolute; 
+    z-index:1;
+}
+
+.btn-principal{
+    font-size: 15.7pt; 
+    margin-left: 50%;
+    margin-top: 670px;
+    margin-bottom: 5%;
+    background: var(--grisOscuro);
+    border: none;
+    padding: 15px 20px 8px 16px;
+    border-radius: 20px;
+    color: var(--blanco);
+    font-family: "poppinsbold";
+    position:absolute; 
+    z-index:1;
+}
+
+.footer {
+    width: 65px;
+    margin-left: -30px;
+    margin-top: 700px;
+    padding: 25px 25px 20px 40px;
+    color: var(--grisOscuro);
+    font-size: 12pt;
+    font-family: "montserratbold";
+    position:absolute; 
+    z-index:1;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+.correo{
+    margin-left: 71.5%;
+    margin-top: 730px;
+    color: var(--grisOscuro);
+    font-family: "poppinsmedium";
+    line-height: 28px;
+    position:absolute; 
+    z-index:1;
+}
+  #container{
+      width: 1950px;
+      margin: 0 auto;
+      background: var(--blanco);
+  }
+
+  #container .wrapper{
+      padding: 0;
+      margin: 0;
+  }
+
+#logo{
+    width: 15%;
+    margin-left: 38px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+}

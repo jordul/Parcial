@@ -1,0 +1,197 @@
+:root {
+    --grisOscuro: #63605e; 
+    --grisParrafo: #545454;
+    --blanco: #ffffff;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'reeyregular';
+    src: url('../fonts/reey-regular-webfont.woff2') format('woff2'),
+         url('../fonts/reey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: var(--blanco);
+  }
+
+.titulo {
+    font-size: 73pt;
+    color: transparent;
+    margin-top: 40px;
+    margin-left: 2.8%;
+    background: url(../img/Titulo-about.png) no-repeat;
+    background-position: 6% 66%;
+    -webkit-background-clip: text;
+    font-family: "poppinsextrabold" !important;
+    line-height: 80px;
+    position:absolute; 
+    z-index:1;
+    margin-bottom: 30px;
+}
+
+.Connect{
+    margin-top: 4%;
+    margin-left: -10%;
+    font-size: 35pt;
+    line-height: 60px;
+    color: var(--grisOscuro);
+    transform: rotate(-15deg);
+    text-align: center;
+    font-family: "reeyregular" !important;
+}
+
+.subtitulo {
+    font-size: 15pt;
+    margin-left: 2.8%;
+    color: var(--grisOscuro);
+    font-family: "poppinsbold" !important;
+}
+
+.parrafo {
+    color: var(--grisParrafo);
+    margin-top: 3px;
+    margin-left: 2.8%;
+    margin-bottom: 25px;
+    font-size: 11.4pt;
+    width: 80%;
+    font-family: "poppinsmedium";
+    line-height: 22px;
+}
+
+.btn-principal{
+    font-size: 15.7pt; 
+    margin-top: 57%;
+    margin-left: 2.8%;
+    background: var(--grisOscuro);
+    border: none;
+    padding: 7px 16px 11px 16px;
+    border-radius: 20px;
+    color: var(--blanco);
+    font-family: "poppinsbold";
+}
+
+
+.footer {
+    width: 500px; height: 400px;
+    padding: 25px 25px 20px 40px;
+    margin-top: 9%;
+    position:absolute; 
+    z-index:0;
+}
+
+.img_RedesSociales{
+    width: 67px;
+    margin-left: 21px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+
+}
+
+.Web{
+    color: var(--grisOscuro);
+    font-size: 12pt;
+    font-family: "montserratbold";
+    padding: 25px 25px 20px 40px;
+    margin-top: -50;
+    margin-left: 27%;
+    float: left;
+    position: relative;
+    display: inline-block; 
+}
+
+
+.content-information{
+    width: 400px; height: 400px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    padding: 25px 25px 20px 40px;
+}
+
+.content-images{
+    width: 323px; height: 20px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    display: inline-block; 
+    margin-left: -100px;
+}
+
+
+  #container{
+      width: 1300px;
+      margin: 0 auto;
+      background: var(--blanco);
+  }
+
+.clear {
+    clear: both;
+}
+
+  #container .wrapper{
+      padding: 0;
+      margin: 0;
+  }
+
+  #logo{
+    width: 3%;
+    margin-left: 91%;
+  }
